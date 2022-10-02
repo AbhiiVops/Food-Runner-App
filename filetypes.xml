@@ -1,0 +1,37 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping pattern="AddingClicksToViews" type="AUTO_DETECTED" />
+      <mapping pattern="Imp Points" type="AUTO_DETECTED" />
+      <mapping pattern="Splash Screen" type="AUTO_DETECTED" />
+      <mapping pattern="Icons" type="AUTO_DETECTED" />
+      <mapping pattern="IMP Points" type="AUTO_DETECTED" />
+      <mapping pattern="Typecasting" type="AUTO_DETECTED" />
+      <mapping pattern="Shared Preferences" type="AUTO_DETECTED" />
+      <mapping pattern="Customizing App" type="AUTO_DETECTED" />
+      <mapping pattern="Recycler View" type="AUTO_DETECTED" />
+      <mapping pattern="Layouts" type="AUTO_DETECTED" />
+      <mapping pattern="Problems After adding coordinator layout" type="AUTO_DETECTED" />
+      <mapping pattern="Lists" type="AUTO_DETECTED" />
+      <mapping pattern="Erros Part1" type="AUTO_DETECTED" />
+      <mapping pattern="Steps to send post Request" type="AUTO_DETECTED" />
+      <mapping pattern="Prerequisites to connect to internet" type="AUTO_DETECTED" />
+      <mapping pattern="CreatingIntent" type="AUTO_DETECTED" />
+      <mapping pattern="Navigation Drawer" type="AUTO_DETECTED" />
+      <mapping pattern="Shared Prefrences" type="AUTO_DETECTED" />
+      <mapping pattern="Fragments" type="AUTO_DETECTED" />
+      <mapping pattern="Hamburger Icon" type="AUTO_DETECTED" />
+      <mapping pattern="marquee text" type="AUTO_DETECTED" />
+      <mapping pattern="AppBar Layout" type="AUTO_DETECTED" />
+      <mapping pattern="Scroll view" type="AUTO_DETECTED" />
+      <mapping pattern="Coordinator layout" type="AUTO_DETECTED" />
+      <mapping pattern="GET &amp; POST REQUESTS" type="AUTO_DETECTED" />
+      <mapping pattern="dancing_script" type="AUTO_DETECTED" />
+      <mapping pattern="ProblemAfterFragmentIsAdded" type="AUTO_DETECTED" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
+      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
+    </extensionMap>
+  </component>
+</application>
