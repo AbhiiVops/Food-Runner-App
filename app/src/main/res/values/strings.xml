@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Food Runner</string>
+    <string name="preferences_file_name">Users Preferences</string>
+</resources>

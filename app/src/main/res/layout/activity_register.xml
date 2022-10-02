@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="#fbc02d">
+
+
+
+    <ImageView
+        android:id="@+id/imgFoodRunnerRegister"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp"
+        android:src="@drawable/food_runner"/>
+
+
+    <TextView
+        android:id="@+id/txtCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgFoodRunnerRegister"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/opensans_bold"
+        android:text="Create an Account"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCreate"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#00796b"
+        android:fontFamily="@font/robotomono_semibold"
+        android:hint="Enter your name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+    
+    <EditText
+        android:id="@+id/etEmailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etName"
+        android:backgroundTint="#00796b"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Email ID"
+        android:fontFamily="@font/robotomono_semibold"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColorHint="#000000"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmailId"
+        android:backgroundTint="#00796b"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Password"
+        android:fontFamily="@font/robotomono_semibold"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColorHint="#000000"
+        android:textColor="#000000"/>
+
+    <CheckBox
+        android:id="@+id/Checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPassword"
+        android:layout_marginLeft="10dp"
+        android:checked="false"
+        android:fontFamily="@font/robotomono_mediumitalic"
+        android:text="I Read and agree to Terms and Conditions" />  <!--set the current state of the check box-->
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Checkbox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#ff3d00"
+        android:fontFamily="@font/robotomono_semibold"
+        android:text="Register Now"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    <!-- android:background="@drawable/round_button"   -->
+
+    <TextView
+        android:id="@+id/txtRegisterUsingSocial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/robotomono_mediumitalic"
+        android:text="Or Register using social media"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Login"
+        android:fontFamily="@font/opensans_condensed_bold"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
